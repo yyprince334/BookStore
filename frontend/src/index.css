@@ -1,6 +1,10 @@
 body {
-  background-color: #fdf8ff; /* Replace #ffcc00 with the desired color code */
-  margin: 0; /* Remove default margin */
+  background-color: rgb(
+    255,
+    248,
+    239
+  ); /* Replace #ffcc00 with the desired color code */
+  margin: 2em; /* Remove default margin */
   padding: 0; /* Remove default padding */
   font-family: "Light";
 }
@@ -9,4 +13,10 @@ body {
   font-family: "Light"; /*Can be any text*/
   src: local("Poppins-Light"),
     url("./fonts//Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Light"; /*Can be any text*/
+  src: local("Poppins-Bold"),
+    url("./fonts//Poppins-Bold.ttf") format("truetype");
 }

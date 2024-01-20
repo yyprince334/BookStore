@@ -22,7 +22,15 @@ function getBookById() {
   return (
     <>
       <div>
-        <Typography textAlign="center" fontFamily={"Light"} variant="h3">
+        <Typography
+          style={{
+            color: "black",
+            paddingBottom: "30px",
+          }}
+          textAlign="center"
+          fontFamily={"Light"}
+          variant="h3"
+        >
           {book.title}
         </Typography>
       </div>
@@ -38,44 +46,59 @@ function getBookById() {
           style={{
             widht: "400px",
             height: "400px",
-            paddingBottom: "0.2em",
+            paddingBottom: "2em",
+            paddingRight: "30px",
+            position: "relative",
           }}
         ></img>
         <div
           style={{
-            display: "flex",
-            justifyContent: "space-between",
+            // display: "grid",
+            // justifyContent: "space-between",
+            gap: "1em",
           }}
         >
           <div>
-            <Typography variant="h5" fontFamily={"Light"}>
-              {book.author}
+            <Typography
+              style={{
+                color: "black",
+              }}
+              variant="h5"
+            >
+              Author : {book.author}
             </Typography>
           </div>
           <div>
-            <Typography variant="h5" fontFamily={"Light"}>
-              {book.publishYear}
+            <Typography
+              style={{
+                color: "black",
+              }}
+              variant="h5"
+            >
+              Publish Year: {book.publishYear}
             </Typography>
           </div>
         </div>
       </div>
       <div>
-        <Typography variant="h5" fontFamily={"Light"}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          repellat velit voluptatem dolor sint soluta aspernatur, voluptate,
-          rerum, delectus ad nisi perspiciatis illum illo doloribus. Aspernatur
-          delectus asperiores doloribus omnis. Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Fugiat repellat velit voluptatem dolor
-          sint soluta aspernatur, voluptate, rerum, delectus ad nisi
-          perspiciatis illum illo doloribus. Aspernatur delectus asperiores
-          doloribus omnis. Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Fugiat repellat velit voluptatem dolor sint soluta aspernatur,
-          voluptate, rerum, delectus ad nisi perspiciatis illum illo doloribus.
-          Aspernatur delectus asperiores doloribus omnis. Lorem ipsum dolor, sit
-          amet consectetur adipisicing elit. Fugiat repellat velit voluptatem
-          dolor sint soluta aspernatur, voluptate, rerum, delectus ad nisi
-          perspiciatis illum illo doloribus. Aspernatur delectus asperiores
-          doloribus omnis.
+        <Typography
+          style={{
+            color: "black",
+          }}
+          variant="h6"
+        >
+          Dragon Ball Z[c] is a Japanese anime television series produced by
+          Toei Animation. Part of the Dragon Ball media franchise, it is the
+          sequel to the 1986 Dragon Ball television series and adapts the latter
+          325 chapters of the original Dragon Ball manga series created by Akira
+          Toriyama. The series aired in Japan on Fuji TV from April 1989 to
+          January 1996, and was later dubbed for broadcast in at least 81
+          countries worldwide.[6] Dragon Ball Z continues the adventures of Son
+          Goku in his adult life as he and his companions defend the Earth
+          against villains including aliens (Vegeta, Freeza), androids (Cell),
+          and magical creatures (Majin Boo). At the same time, the story
+          parallels the life of Goku's son, Gohan, as well as the development of
+          his rivals, Piccolo and Vegeta.
         </Typography>
       </div>
     </>

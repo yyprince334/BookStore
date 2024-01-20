@@ -26,6 +26,7 @@ function Appbar() {
             navigate("/");
           }}
           variant={"h4"}
+          style={{ color: "black" }}
         >
           Goodreads
         </Typography>
