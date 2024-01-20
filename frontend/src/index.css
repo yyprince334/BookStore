@@ -1,0 +1,12 @@
+body {
+  background-color: #fdf8ff; /* Replace #ffcc00 with the desired color code */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: "Light";
+}
+
+@font-face {
+  font-family: "Light"; /*Can be any text*/
+  src: local("Poppins-Light"),
+    url("./fonts//Poppins-Light.ttf") format("truetype");
+}
